@@ -1,0 +1,19 @@
+{
+  "name": "@workspace/tsconfig",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    "./tsconfig.react.json": "./tsconfig.react.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@tsconfig/vite-react": "catalog:"
+  }
+}
