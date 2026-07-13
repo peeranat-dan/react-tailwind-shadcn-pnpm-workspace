@@ -1,10 +1,11 @@
-import { Button } from "@workspace/ui/components/ui/button";
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import "./index.css";
+import { Button } from '@workspace/ui/components/ui/button';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 
-createRoot(document.getElementById("root")!).render(
+import './index.css';
+
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Button>Button</Button>
-  </StrictMode>
+  </StrictMode>,
 );
