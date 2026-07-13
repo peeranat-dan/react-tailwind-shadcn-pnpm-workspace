@@ -1,0 +1,6 @@
+import oxlintReactConfig from '@chanom/dev-config/oxlint/config';
+import { defineConfig } from 'oxlint';
+
+export default defineConfig({
+  extends: [oxlintReactConfig],
+});
