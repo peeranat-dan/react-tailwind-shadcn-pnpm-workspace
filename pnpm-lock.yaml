@@ -49,7 +49,7 @@ catalogs:
       specifier: ^9.1.7
       version: 9.1.7
     lint-staged:
-      specifier: ^17.3.0
+      specifier: 17.3.0
       version: 17.3.0
     lucide-react:
       specifier: 1.24.0
@@ -66,6 +66,9 @@ catalogs:
     oxlint-tsgolint:
       specifier: 7.0.2001
       version: 7.0.2001
+    radix-ui:
+      specifier: 1.6.7
+      version: 1.6.7
     react:
       specifier: 19.2.7
       version: 19.2.7
@@ -193,7 +196,7 @@ importers:
         specifier: 'catalog:'
         version: 0.4.6(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       radix-ui:
-        specifier: latest
+        specifier: 'catalog:'
         version: 1.6.7(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       react:
         specifier: 'catalog:'
