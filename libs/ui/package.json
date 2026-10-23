@@ -30,6 +30,7 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@workspace/tsconfig": "workspace:*"
+    "@workspace/tsconfig": "workspace:*",
+    "shadcn": "catalog:"
   }
 }
