@@ -9,9 +9,6 @@
   "exports": {
     "./tsconfig.react.json": "./tsconfig.react.json"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "devDependencies": {
     "@tsconfig/vite-react": "catalog:"
   },

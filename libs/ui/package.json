@@ -11,6 +11,9 @@
     "./components/*": "./src/components/*.tsx",
     "./hooks/*": "./src/hooks/*.ts"
   },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
   "dependencies": {
     "@hookform/resolvers": "catalog:",
     "@types/react": "catalog:",
