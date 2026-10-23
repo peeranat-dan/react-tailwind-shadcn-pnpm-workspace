@@ -1,8 +1,7 @@
+import { Avatar as AvatarPrimitive } from '@base-ui/react/avatar';
 import { cn } from '@workspace/ui/lib/utils';
-import { Avatar as AvatarPrimitive } from 'radix-ui';
-import * as React from 'react';
 
-function Avatar({ className, ...props }: React.ComponentProps<typeof AvatarPrimitive.Root>) {
+function Avatar({ className, ...props }: Readonly<AvatarPrimitive.Root.Props>) {
   return (
     <AvatarPrimitive.Root
       data-slot="avatar"
@@ -12,7 +11,7 @@ function Avatar({ className, ...props }: React.ComponentProps<typeof AvatarPrimi
   );
 }
 
-function AvatarImage({ className, ...props }: React.ComponentProps<typeof AvatarPrimitive.Image>) {
+function AvatarImage({ className, ...props }: Readonly<AvatarPrimitive.Image.Props>) {
   return (
     <AvatarPrimitive.Image
       data-slot="avatar-image"
@@ -22,10 +21,7 @@ function AvatarImage({ className, ...props }: React.ComponentProps<typeof Avatar
   );
 }
 
-function AvatarFallback({
-  className,
-  ...props
-}: React.ComponentProps<typeof AvatarPrimitive.Fallback>) {
+function AvatarFallback({ className, ...props }: Readonly<AvatarPrimitive.Fallback.Props>) {
   return (
     <AvatarPrimitive.Fallback
       data-slot="avatar-fallback"

@@ -4,6 +4,7 @@ packages:
   - packages/*
 
 catalog:
+  '@base-ui/react': 1.9.0
   '@chanom/cli': 0.5.0
   '@chanom/dev-config': 0.0.5
   '@commitlint/cli': 21.2.1
@@ -24,7 +25,6 @@ catalog:
   oxfmt: 0.74.0
   oxlint: 1.89.0
   oxlint-tsgolint: 7.0.2005
-  radix-ui: 1.6.7
   react: 19.2.7
   react-dom: 19.2.7
   react-hook-form: 7.81.0
